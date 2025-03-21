@@ -19,7 +19,6 @@ const DESCRIPTION = translate({
   message: '终身学习，不断精进，致力于为用户提供更好的产品体验',
 })
 
-// const GITHUB_URL = 'https://github.com/kuizuo'
 
 type ProjectState = {
   scrollTopPosition: number
@@ -42,14 +41,7 @@ function ShowcaseHeader() {
     <section className="text--center">
       <h2>{TITLE}</h2>
       <p>{DESCRIPTION}</p>
-      {/* <a
-        className="button button--primary"
-        href={GITHUB_URL}
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Translate id="showcase.header.button">前往 Github 克隆项目</Translate>
-      </a> */}
+      {}
     </section>
   )
 }
